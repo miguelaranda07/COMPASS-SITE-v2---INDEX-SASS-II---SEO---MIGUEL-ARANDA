@@ -319,8 +319,82 @@ body {
     .twop {
       margin-left: 0%;
     }
-  
-    /*FIN CONTACTO*/
+
+/*FIN CONTACTO*/
   }
   
-  /*FIN RESPONSIVE*/
+/*FIN RESPONSIVE*/
+
+/*BOTONES INFERIORES*/
+/*MAPS*/
+  $redes: (
+  1: #55acee,
+  2: #3a5795,
+  3: #C25E30
+  ); 
+  
+  @each $red, $color in $redes {
+  .btn-#{$red} {
+  background-color: $color;
+  }
+/*MAP-GET*/
+  $espacios: (
+  top: 10px,
+  bottom: 12px,
+  );
+
+  .combtn {
+  margin-top: map-get($espacios, top);
+  margin-bottom: map-get($espacios, bottom);
+  }
+/*FIN MAP-GET*/
+
+/*FIN MAPS*/
+
+/*EXTEND*/
+  .boton {
+    background-color:white;
+    text-align:center;
+    color:black;
+    border-radius:20px;
+    border:1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .boton--aceptar{
+    @extend .boton;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    margin-right: 10px;
+  }
+  
+  .boton--cancelar{
+    @extend .boton;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    margin-left: 10px;
+  }
+}
+/*FIN EXTEND*/
+
+/*MIXIN*/
+@mixin sizes($ancho, $alto) {
+  height: $alto;
+  width: $ancho;
+}
+.boton {
+  @include sizes(125px, 50px);
+}
+.btn-1{
+  @include sizes(120px, 50px); /*BAJA DE ESCALA*/
+}
+.btn-2{
+  @include sizes(115px, 45px);
+}
+.btn-3{
+  @include sizes(125px, 40px); /*FIN BAJA DE ESCALA*/
+}
+/*FIN MIXIN*/
+ 
+/*FIN BOTONES INFERIORES*/

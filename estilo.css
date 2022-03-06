@@ -271,5 +271,138 @@ a:hover {
   /*FIN CONTACTO*/
 }
 /*FIN RESPONSIVE*/
+/*BOTONES INFERIORES*/
+/*MAPS*/
+.btn-1 {
+  background-color: #55acee;
+}
+
+/*MAP-GET*/
+.combtn {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+/*FIN MAP-GET*/
+/*FIN MAPS*/
+/*EXTEND*/
+.boton, .boton--cancelar, .boton--aceptar {
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boton--aceptar {
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+
+.boton--cancelar {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+.btn-2 {
+  background-color: #3a5795;
+}
+
+/*MAP-GET*/
+.combtn {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+/*FIN MAP-GET*/
+/*FIN MAPS*/
+/*EXTEND*/
+.boton, .boton--aceptar, .boton--cancelar {
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boton--aceptar {
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+
+.boton--cancelar {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+.btn-3 {
+  background-color: #C25E30;
+}
+
+/*MAP-GET*/
+.combtn {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+/*FIN MAP-GET*/
+/*FIN MAPS*/
+/*EXTEND*/
+.boton, .boton--aceptar, .boton--cancelar {
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boton--aceptar {
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+
+.boton--cancelar {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+/*FIN EXTEND*/
+/*MIXIN*/
+.boton, .boton--aceptar, .boton--cancelar {
+  height: 50px;
+  width: 125px;
+}
+
+.btn-1 {
+  height: 50px;
+  width: 120px;
+  /*BAJA DE ESCALA*/
+}
+
+.btn-2 {
+  height: 45px;
+  width: 115px;
+}
+
+.btn-3 {
+  height: 40px;
+  width: 125px;
+  /*FIN BAJA DE ESCALA*/
+}
+
+/*FIN MIXIN*/
+/*FIN BOTONES INFERIORES*/
 
 /*# sourceMappingURL=estilo.css.map */
